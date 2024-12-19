@@ -6,9 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-geist-sans)", ...fontFamily.sans],
+        oswald: ["Oswald", "sans-serif"],
       },
     },
   },
   plugins: [],
-} satisfies Config;
+}; 
